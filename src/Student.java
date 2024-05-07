@@ -18,6 +18,16 @@ public class Student {
     }
 
 
+    // 수강생 과목 등록
+    public void registerSubject(){
+        System.out.println("필수과목은 3개 이상 선택 가능합니다.");
+
+        System.out.println("선택과목은 2개 이상 선택 가능합니다.");
+    }
+
+    // 수강생 목록 조회
+
+
     // 과목별 등급 조회 메서드
     public void inquiryGrade(){
         Scanner sc= new Scanner(System.in);
